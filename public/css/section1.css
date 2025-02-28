@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: url(../img/imgs1.jpg) no-repeat center center;
+    background-size: cover; /* Change to contain if too zoomed */
+    background-attachment: fixed;
+}
+
+.header {
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 40px;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 36px;
+}
+
+.header p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.content {
+    width: 80%;
+    margin: 40px auto;
+}
+
+.step {
+    background: rgba(255, 255, 255, 0.396);
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.step i {
+    font-size: 30px;
+    color: #05273c;
+}
+
+.step h2 {
+    font-size: 24px;
+    color: #060000;
+}
+
+.step p, .step ul {
+    font-size: 16px;
+    color: #050000;
+}
+
+.step ul {
+    margin-left: 20px;
+}
+
+.cta {
+    background: #355a7e8b;
+    color: white;
+    padding: 30px;
+    margin-top: 30px;
+    border-radius: 10px;
+    font-size: 22px;
+    text-align: center;
+}
+
+.cta p {
+    font-size: 18px;
+}
+.footer {
+    background: rgba(0, 0, 0, 0.9);
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+}
+.navbar {
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5vw;
+    background: rgba(13, 13, 13, 0.116);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.logo {
+    height: 50px; /* Adjust this based on your logo size */
+    width: auto;
+    max-width: 150px; /* Prevents it from being too large */
+    object-fit: contain;
+}
+
+.link {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+}
+.link-item {
+    margin-left: 15px;
+}
+
+.links-container {
+    list-style: none;
+    display: flex;
+}
